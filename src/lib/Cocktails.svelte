@@ -18,5 +18,24 @@
 </article>
 
 <style>
+
+  article {
+    margin: 25px;
+    justify-items: center;
+    width: 50%;
+  }
   
+  .card-container {
+    width: 60%;
+    background-color: rgb(55, 55, 55);
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  img {
+    width: 350px;
+    height: 400px;
+    border-radius: 5px;
+  }
+
 </style>
