@@ -29,7 +29,7 @@
       placeholder="bloody mary"
       bind:value={cocktailName}
     >
-    <button on:click={handleSubmit()} type="submit">Search by liquor</button>
+    <button on:click={handleSubmit()} type="submit">Search by recipes</button>
   </div>
 
   <article>
@@ -47,4 +47,21 @@
 
 <style>
 
+  div {
+    margin-bottom: 50px;
+  }
+
+  article {
+    flex-direction: column;
+    justify-items: center;
+  }
+
+  input {
+    border: none;
+    border-radius: 15px;
+    margin-right: 10px;
+    padding-block: 8px;
+    background-color: rgb(65, 65, 64);
+    text-indent: 10px;
+  }
 </style>
